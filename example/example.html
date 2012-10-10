@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>ajaxMask</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../ajaxmask.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="../ajaxmask.js"></script>
+  
+  </head>
+  <body>
+      <!--[if lt IE 7]>
+          <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+      <![endif]-->
+
+      <a href="https://github.com/kevbook/jquery-ajaxmask"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+
+      <img src="logo.png" id="logo">
+      <form id="form1" class="container ajax-form">
+          <div><label>Field1:</label><input type="text"></div>
+          <div><label>Field2:</label><input type="text"></div>
+          <div><label>Field3:</label><input type="text"></div>
+          <input type="button" value="Process" class="process btn btn-success">
+      </form>
+      
+
+      <div class="container"> 
+        <h3>Usage Example 1</h3>
+<pre>
+  .ajax-mask {
+    background: none;
+  }
+
+  .ajax-mask .loading {
+    width: 50px;
+    height: 50px;
+    background: #333 url('../img/loading_mask.gif') center center no-repeat;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    position: relative;
+    left:50%;
+    margin-left:-25px;
+    top:50%;
+    margin-top: -25px;
+    opacity: 0.9;
+    -moz-opacity: 0.9;
+  }
+</pre>
+      </div>
+
+      
+      <div class="container"> 
+        <h3>License</h3>
+        <p>MIT: Kevin Sakhuja <a href="mailto:kevin.sakhuja@gmail.com">kevin.sakhuja@gmail.com</a></p>
+      </div>
+
+      <div class="container"> 
+        <h3>Support & Bugs</h3>
+        <p>Please see ajaxMask on <a href="https://github.com/kevbook/jquery-ajaxmask">Github</a>, or tweet @kevbook.</p>
+      </div>
+
+
+    <script>
+        $(".ajax-form").click(function() {
+          $(this).ajaxMask();
+        });
+    </script>
+
+
+  </body>
+</html>
