@@ -3,8 +3,9 @@ jquery-ajaxmask
 
 ajaxMask is a super lean (under ~30 lines) jQuery plugin that masks Form content to prevent user interactions and display loading.
 
+Check out the [demo](https://s3.amazonaws.com/hackd/project/ajaxmask/example/example.html)
 
-Usage
+### Usage
 * Inlcude jQuery version required: 1.2 or later.
 * Include ajaxmask JS
 * Include the ajaxmask CSS
@@ -16,27 +17,17 @@ Usage
   <script type="text/javascript" src="ajaxmask.js"></script>
   <link href="ajaxmask.css" rel="stylesheet" type="text/css"/>
 
-```
-
-
-
-``` javascript 
-
-/**
- * start ajax mask
- **/
-
-$(element).ajaxMask();
- 
-
-/**
- * stop ajax mask
- **/
-
-$(element).ajaxMask({ stop: true });
+  /**
+   * start ajax mask
+   **/
+  $(element).ajaxMask();
+   
+  /**
+   * stop ajax mask
+   **/
+  $(element).ajaxMask({ stop: true });
 
 ```
-
 
 
 ``` css 
@@ -44,7 +35,6 @@ $(element).ajaxMask({ stop: true });
 /**
  * example 1 on demo page
  **/
-
 .ajax-mask {
   background: none;
 }
@@ -64,5 +54,4 @@ $(element).ajaxMask({ stop: true });
   opacity: 0.9;
   -moz-opacity: 0.9;
 }
-
 ```
