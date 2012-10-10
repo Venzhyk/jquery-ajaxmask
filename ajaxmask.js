@@ -15,7 +15,7 @@
             }, options);
 
         if (!settings.stop) {
-          var loadingDiv = $('<div class="ajax-mask"><div class="loading">'+settings.loadingContent+'</div></div>')
+          var loadingDiv = $('<div class="ajax-mask"><div class="loading"></div></div>')
             .css({ 
               'position': 'absolute',
               'top': 0,
