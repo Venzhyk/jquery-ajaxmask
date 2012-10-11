@@ -5,6 +5,14 @@ ajaxMask is a super lean (under ~30 lines) jQuery plugin that masks Form content
 
 Check out the [demo](https://s3.amazonaws.com/hackd/project/ajaxmask/example/example.html)
 
+
+***
+
+*any questions, suggestions to improve this* kevin.sakhuja@gmail.com
+*twitter* [@kevbook](https://twitter.com/kevbook)
+
+
+
 ### Usage
 * Inlcude jQuery version required: 1.2 or later.
 * Include ajaxmask JS
@@ -12,7 +20,6 @@ Check out the [demo](https://s3.amazonaws.com/hackd/project/ajaxmask/example/exa
 
 
 ``` html 
-
   <script type="text/javascript" src="jquery.js"></script>  
   <script type="text/javascript" src="ajaxmask.js"></script>
   <link href="ajaxmask.css" rel="stylesheet" type="text/css"/>
@@ -26,12 +33,10 @@ Check out the [demo](https://s3.amazonaws.com/hackd/project/ajaxmask/example/exa
    * stop ajax mask
    **/
   $(element).ajaxMask({ stop: true });
-
 ```
 
 
 ``` css 
-
 /**
  * example 1 on demo page
  **/
@@ -55,3 +60,8 @@ Check out the [demo](https://s3.amazonaws.com/hackd/project/ajaxmask/example/exa
   -moz-opacity: 0.9;
 }
 ```
+
+
+***
+
+MIT, Copyright © 2012 Kevin Sakhuja
