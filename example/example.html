@@ -24,18 +24,31 @@
 
       <a href="https://github.com/kevbook/jquery-ajaxmask"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
 
-      <img src="logo.png" id="logo">
+      <a href="https://github.com/kevbook/jquery-ajaxmask">
+        <img src="logo.png" id="logo">
+      </a>
+
       <form id="form1" class="container ajax-form">
           <div><label>Field1:</label><input type="text"></div>
           <div><label>Field2:</label><input type="text"></div>
           <div><label>Field3:</label><input type="text"></div>
-          <input type="button" value="Process" class="process btn btn-success">
+          <input type="button" value="Submit" class="process btn btn-success">
       </form>
       
 
       <div class="container"> 
         <h3>Usage Example 1</h3>
 <pre>
+  // start ajax mask
+  $(element).ajaxMask();
+
+  // stop ajax mask
+  $(element).ajaxMask({ stop: true });
+
+  /**
+   * CSS 
+   **/
+
   .ajax-mask {
     background: none;
   }
@@ -67,6 +80,8 @@
       <div class="container"> 
         <h3>Support & Bugs</h3>
         <p>Please see ajaxMask on <a href="https://github.com/kevbook/jquery-ajaxmask">Github</a>, or tweet @kevbook.</p>
+        <p>Check out <a href="http://kevify.com">kevify.com</a></p>
+      </a>
       </div>
 
 
