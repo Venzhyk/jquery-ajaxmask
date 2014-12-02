@@ -26,7 +26,7 @@
 
           $(this).css({ 'position':'relative' }).append(loadingDiv);
         } else {
-          $('.ajax-mask').remove();
+          $('.ajax-mask', this).remove();
         }
     });
 
